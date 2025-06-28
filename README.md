@@ -1,3 +1,191 @@
 # het-project
 het nice project
 hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nike Custom Sustainable Shoes</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    nav {
+      background-color: #1a73e8;
+      padding: 10px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    header {
+      background: url('shoe-banner.jpg') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+      background: white;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    h2 {
+      color: #1a73e8;
+    }
+    .image {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      margin: 20px 0;
+      border-radius: 6px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      background: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 14px;
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .grid div {
+      flex: 1;
+      min-width: 250px;
+    }
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+      .grid {
+        flex-direction: column;
+      }
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div><a href="#">Nike GreenTech</a></div>
+  <div>
+    <a href="#summary">Summary</a>
+    <a href="#market">Market</a>
+    <a href="#products">Products</a>
+    <a href="#persona">Persona</a>
+    <a href="#footer">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>Nike's Next Step: Custom & Sustainable Footwear</h1>
+  <p>Innovation meets eco-conscious design through AI and 3D scanning</p>
+</header>
+
+<section id="summary">
+  <h2>Executive Summary</h2>
+  <p>Nike is launching custom-fit, eco-friendly shoes using 3D scanning and AI. These shoes are tailored to individuals and built from sustainable materials, appealing to consumers who value both personalization and environmental impact. With a growing footwear market expected to exceed $725 billion, Nike aims to lead the way in innovation.</p>
+  <img src="shoe-banner.jpg" alt="Sustainable Shoe Concept" class="image"/>
+</section>
+
+<section id="market">
+  <h2>Market Analysis</h2>
+  <p><strong>TAM:</strong> $409.5B (2022) ➜ $725.1B (2032)</p>
+  <p><strong>SAM:</strong> $5.2B ➜ $8.6B (2035)</p>
+  <p><strong>Sustainable Shoe Market:</strong> $7.7B ➜ $13.3B (2030)</p>
+  <h3>Trends</h3>
+  <ul>
+    <li>Customization demand rising</li>
+    <li>Eco-conscious buyers increasing</li>
+    <li>3D scanning and AI growing in design</li>
+  </ul>
+  <img src="market-trend.jpg" alt="Market Trends" class="image"/>
+</section>
+
+<section>
+  <h2>Competitor Analysis</h2>
+  <div class="grid">
+    <div><strong>Adidas</strong><br/>Strength: Brand<br/>Weakness: Less sustainable</div>
+    <div><strong>Allbirds</strong><br/>Strength: Sustainability<br/>Weakness: Limited customization</div>
+    <div><strong>Puma</strong><br/>Strength: Style<br/>Weakness: Not eco-focused</div>
+  </div>
+</section>
+
+<section id="products">
+  <h2>Product Strategy</h2>
+  <p>Using 3D foot scans and AI, Nike will create unique, sustainable shoes tailored for each individual.</p>
+  <h3>Product Line</h3>
+  <ul>
+    <li><strong>Nike FitPro:</strong> $200 – Custom running shoes (3D + eco)</li>
+    <li><strong>Nike EcoTrainer:</strong> $180 – Training shoes (AI design + recycled)</li>
+    <li><strong>Nike GreenStep:</strong> $150 – Daily wear (sustainable, comfortable)</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Target Market & Value</h2>
+  <p>Targeted at 18–45 year-olds who care about health, tech, and the planet. These shoes offer comfort, personalization, and green innovation.</p>
+  <p><strong>Value Proposition:</strong> AI-powered eco-shoes made just for you – better fit, better world.</p>
+  <img src="eco-fit.jpg" alt="Eco Fit Customer" class="image"/>
+</section>
+
+<section id="persona">
+  <h2>Digital Buyer Persona</h2>
+  <ul>
+    <li><strong>Age:</strong> 18–45</li>
+    <li><strong>Income:</strong> $50K–$100K</li>
+    <li><strong>Location:</strong> North America & Europe</li>
+    <li><strong>Profession:</strong> Tech-savvy professionals, athletes, eco-lifestyle</li>
+    <li><strong>Shopping:</strong> Mobile-first, direct-to-consumer websites</li>
+    <li><strong>Motives:</strong> Sustainability, fit, brand value</li>
+  </ul>
+</section>
+
+<footer id="footer">
+  <p>© 2025 Nike GreenTech | Sources: Allied Market Research, Adidas, Allbirds, Puma</p>
+</footer>
+
+</body>
+</html>
